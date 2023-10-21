@@ -4,7 +4,7 @@
  * File Created: Friday, 20th October 2023 3:23:49 pm
  * Author: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
  * -----
- * Last Modified: Saturday, 21st October 2023 12:14:26 am
+ * Last Modified: Saturday, 21st October 2023 3:39:26 pm
  * Modified By: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
  * -----
  * Copyright 2020 - 2023 Mutual Mobile, Mutual Mobile
@@ -30,7 +30,6 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    
     gap:1.5rem;
     
 }
@@ -39,4 +38,9 @@
     font-size:1rem;
     text-decoration: none;
     color:var(--text-color) !important;
+}
+
+.underline-txt{
+    text-decoration: underline !important;
+    text-underline-offset: 8px;
 }

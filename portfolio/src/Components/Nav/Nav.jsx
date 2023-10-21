@@ -4,7 +4,7 @@
  * File Created: Friday, 20th October 2023 3:18:06 pm
  * Author: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
  * -----
- * Last Modified: Saturday, 21st October 2023 3:04:42 pm
+ * Last Modified: Saturday, 21st October 2023 3:39:40 pm
  * Modified By: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
  * -----
  * Copyright 2020 - 2023 Mutual Mobile, Mutual Mobile
@@ -16,7 +16,6 @@ import {useLocation} from "react-router-dom"
 
 const Nav = () => {
     const location=useLocation()
-    console.log(location)
     return (
         <div className='background-primary' style={{width:'100%',position:'sticky',top:0,right:0,zIndex:10}}>
             <div className='nav-container'>
