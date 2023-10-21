@@ -4,11 +4,13 @@
  * File Created: Friday, 20th October 2023 5:29:33 pm
  * Author: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
  * -----
- * Last Modified: Friday, 20th October 2023 7:12:49 pm
+ * Last Modified: Saturday, 21st October 2023 3:05:09 pm
  * Modified By: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
  * -----
  * Copyright 2020 - 2023 Mutual Mobile, Mutual Mobile
  */
+
+
 .name-txt{
     font-family: 'Unica One', sans-serif;
     font-size: 3rem;
@@ -23,4 +25,22 @@
     position:'relative' !important;
     background-color:#000  !important;
     cursor:'pointer' !important
+}
+.mobile-txt{
+    display: none;
+}
+
+.underline-txt{
+    text-decoration: underline !important;
+}
+
+@media screen and (max-width:700px) {
+    .desktop-txt{
+        display: none !important;
+    }
+    .mobile-txt{
+        display: flex;
+        flex-wrap: wrap;
+        word-break: break-all;
+    }
 }
