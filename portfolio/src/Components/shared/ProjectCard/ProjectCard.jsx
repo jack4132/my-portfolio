@@ -4,7 +4,7 @@
  * File Created: Friday, 20th October 2023 5:29:24 pm
  * Author: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
  * -----
- * Last Modified: Saturday, 21st October 2023 3:34:57 pm
+ * Last Modified: Saturday, 21st October 2023 3:54:01 pm
  * Modified By: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
  * -----
  * Copyright 2020 - 2023 Mutual Mobile, Mutual Mobile
@@ -16,8 +16,8 @@ const ProjectCard = ({refLink,image,name,description}) => {
     return (
         <div>
             <a href={refLink} style={{position:'relative',backgroundColor:'#000',cursor:'pointer'}}>
-                <div style={{position:'relative',backgroundColor:'#000',cursor:'pointer',height:"500px",display:'flex',alignItems:'center'}}>
-                    <img src={image} alt="project" width={'100%'} style={{opacity:0.4,objectFit:'contain'}}/>
+                <div style={{position:'relative',backgroundColor:'#000',cursor:'pointer'}}>
+                    <img src={image} alt="project" width={'100%'} style={{opacity:0.4}}/>
                 </div>
                 <p className='name-txt desktop-txt' style={{position:'absolute',top:0,bottom:0,left:0,right:0,display:'flex',justifyContent:'center',alignItems:'center'}}>{name}</p>
             </a>
