@@ -1,0 +1,42 @@
+/*
+ * File: Nav.css
+ * Project: portfolio
+ * File Created: Friday, 20th October 2023 3:23:49 pm
+ * Author: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
+ * -----
+ * Last Modified: Saturday, 21st October 2023 12:14:26 am
+ * Modified By: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
+ * -----
+ * Copyright 2020 - 2023 Mutual Mobile, Mutual Mobile
+ */
+.nav-container{
+    color:var(--text-color) !important;
+    display:flex;
+    justify-content: space-between;
+    width: var(--outer-width);
+    align-items: center;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.logo-name{
+    font-family: 'Unica One', sans-serif;
+    font-size: 2rem;
+    color:var(--text-color) !important;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap:1.5rem;
+    
+}
+.nav-txt{
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+    text-decoration: none;
+    color:var(--text-color) !important;
+}

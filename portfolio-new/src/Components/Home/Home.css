@@ -1,0 +1,15 @@
+/*
+ * File: Home.css
+ * Project: portfolio
+ * File Created: Friday, 20th October 2023 5:20:47 pm
+ * Author: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
+ * -----
+ * Last Modified: Friday, 20th October 2023 6:12:13 pm
+ * Modified By: Jackson Thounaojam (jackson.thounaojam@mutualmobile.com)
+ * -----
+ * Copyright 2020 - 2023 Mutual Mobile, Mutual Mobile
+ */
+.home-container{
+    width: var(--outer-width);
+    margin: auto;
+}

@@ -1,0 +1,132 @@
+@import"https://fonts.googleapis.com/css2?family=Unica+One&display=swap";@import"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";@import"https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap";.footer {
+    padding: 2rem 0rem
+}
+:root {
+    --outer-width: 90%;
+    --inner-width: 80%;
+    --text-color: #FBEE92;
+    --primary: #10283B
+}
+
+.banner-container {
+    width: 100%;
+    height: 700px;
+    background-position: 50% 50%;
+    background-image: url(https://media.journoportfolio.com/users/305793/images/97f4938d-d08b-44e9-ba02-aab2a8932fbf.png&quot);
+    background-color: var(--primary);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.banner-txt {
+    font-family: Roboto Mono,monospace
+}
+
+.name-txt {
+    font-family: Unica One,sans-serif;
+    font-size: 3rem;
+    color: var(--text-color)!important
+}
+
+.description-txt {
+    font-family: Roboto Mono,monospace
+}
+
+.img-project {
+    position: "relative"!important;
+    background-color: #000!important;
+    cursor: "pointer"!important
+}
+
+.mobile-txt {
+    display: none
+}
+
+.desktop-resolution {
+    height: 450px;
+    display: flex;
+    align-items: center
+}
+
+@media screen and (max-width: 700px) {
+    .desktop-txt {
+        display:none!important
+    }
+
+    .desktop-resolution {
+        height: 100%;
+        display: block
+    }
+
+    .mobile-txt {
+        display: flex;
+        flex-wrap: wrap;
+        word-break: break-all
+    }
+}
+
+.home-container {
+    width: var(--outer-width);
+    margin: auto
+}
+
+.nav-container {
+    color: var(--text-color)!important;
+    display: flex;
+    justify-content: space-between;
+    width: var(--outer-width);
+    align-items: center;
+    margin: auto;
+    padding: 10px 0
+}
+
+.logo-name {
+    font-family: Unica One,sans-serif;
+    font-size: 2rem;
+    color: var(--text-color)!important;
+    text-decoration: none
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem
+}
+
+.nav-txt {
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--text-color)!important
+}
+
+.underline-txt {
+    text-decoration: underline!important;
+    text-underline-offset: 8px
+}
+
+.about-banner {
+    color: var(--text-color)!important;
+    font-size: 4rem
+}
+
+.about-txt {
+    font-family: Roboto Mono,monospace
+}
+
+
+
+.roboto-mono {
+    font-family: Roboto Mono,monospace
+}
+
+a {
+    cursor: pointer
+}
+
+.background-primary {
+    background-color: var(--primary)
+}
