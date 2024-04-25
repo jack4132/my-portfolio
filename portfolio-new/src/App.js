@@ -15,10 +15,10 @@ function App() {
       <div style={{position:'relative'}}>
         
         <BrowserRouter> 
-        <Nav/>
+          <Nav/>
            <Routes>
              <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+             <Route path="/about" element={<About />} />
            </Routes> 
            <Footer/>
          </BrowserRouter>

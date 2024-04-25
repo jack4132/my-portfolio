@@ -50,22 +50,7 @@
     align-items: center
 }
 
-@media screen and (max-width: 700px) {
-    .desktop-txt {
-        display:none!important
-    }
 
-    .desktop-resolution {
-        height: 100%;
-        display: block
-    }
-
-    .mobile-txt {
-        display: flex;
-        flex-wrap: wrap;
-        word-break: break-all
-    }
-}
 
 .home-container {
     width: var(--outer-width);
@@ -129,4 +114,21 @@ a {
 
 .background-primary {
     background-color: var(--primary)
+}
+
+@media screen and (max-width: 700px) {
+    .desktop-txt {
+        display:none!important
+    }
+
+    .desktop-resolution {
+        height: 100%;
+        display: block
+    }
+
+    .mobile-txt {
+        display: flex;
+        flex-wrap: wrap;
+        word-break: break-all
+    }
 }
